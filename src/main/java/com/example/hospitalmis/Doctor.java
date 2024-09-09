@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class Doctor {
-    private Connection conn;
+    private final Connection conn;
 
     public Doctor(Connection conn, Scanner scanner){
         this.conn = conn;

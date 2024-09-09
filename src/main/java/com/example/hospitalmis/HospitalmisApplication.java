@@ -10,13 +10,13 @@ import java.util.Scanner;
 public class HospitalmisApplication {
 	public static void main(String[] args) {
 		try {
-			// Load PostgreSQL JDBC driver
+			// Load PostgresSQL JDBC driver
 			Class.forName("org.postgresql.Driver");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		}
 
-		// PostgreSQL connection details
+		// PostgresSQL connection details
 		String url = "jdbc:postgresql://localhost:5432/hospitaldb"; // Adjust your DB name and URL
 		String username = "postgres";
 		String password = "0000";
